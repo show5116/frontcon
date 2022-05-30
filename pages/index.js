@@ -1,19 +1,10 @@
-import styles from '../styles/Home.module.css'
+import * as S from '../styles/pages/index.style';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className={styles.container}>
-      <header className={styles.header}>
-        <h1>frontCon</h1>
-        <nav>
-          <ul>
-            <li>Guide</li>
-            <li>Icon</li>
-          </ul>
-        </nav>
-      </header>
+    <S.Container>
 
-      <main className={styles.main}>
+      <main className='main'>
         <section>
           1
         </section>
@@ -28,6 +19,8 @@ export default function Home() {
       <footer>
         <p>Copyright 2022. FrontCon Co. all rights reserved.</p>
       </footer>
-    </div>
+    </S.Container>
   )
 }
+
+export default Home;

@@ -1,7 +1,20 @@
-import '../styles/globals.css'
+import {GlobalStyle} from "../styles/GlobalStyle";
+import {useSelector} from "react-redux";
+import {ThemeProvider} from "styled-components";
+import wrapper from "../store/configureStore";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+const MyApp = ({ Component, pageProps }) => {
+
+    const themeState = useSelector((state) => state.themeReducer);
+
+    return (
+      <>
+          <GlobalStyle />
+          <ThemeProvider theme={themeState.theme}>
+              <Component {...pageProps} />
+          </ThemeProvider>
+      </>
+    )
 }
 
-export default MyApp
+export default wrapper.withRedux(MyApp);

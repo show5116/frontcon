@@ -12,13 +12,17 @@
     "axios": "^0.27.2",
     "babel-preset-next": "^1.4.0",
     "next": "12.1.6",
+    "next-redux-wrapper": "^7.0.5",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "redux-devtools-extension": "^2.13.9"
   }
 }

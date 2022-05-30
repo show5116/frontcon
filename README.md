@@ -19,4 +19,7 @@
     $ npm i styled-component
     $ npm i --save-dev babel-plugin-styled-components
     $ npm i babel-preset-next
+    $ npm i redux react-redux
+    $ npm i -D redux-devtools-extension
+    $ npm i next-redux-wrapper
 ```
