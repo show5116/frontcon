@@ -34,7 +34,6 @@ class ServerSideStyledComponent extends Document {
         return (
             <Html>
                 <Head>
-                    <title>Front Con</title>
                     <meta charSet="utf-8"></meta>
                 </Head>
                 <body>
