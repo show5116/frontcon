@@ -30,23 +30,33 @@ export const Container = styled.header`
     ul {
       display: flex;
       gap: 40px;
-      li a {
-        cursor: pointer;
-        color : ${color.gray}
-      }
-      li a.login-btn{
-        padding : 3px 6px;
-        color: ${color.white};
-        background-color: ${color.blue};
-      }
     }
   }
-  
-  .main-page-content ,
-  .guide-page-content {
-    padding: 50px 120px;
-    font-size: 46px;
-    font-weight: bolder;
-    color: ${color.blue};
+`;
+
+export const Menu = styled.a`
+  cursor: pointer;
+  color : ${color.gray};
+  &:hover{
+    color: ${color.white};
   }
+`;
+
+export const LoginBtn = styled.a`
+  cursor: pointer;
+  padding : 3px 6px;
+  color: ${color.white};
+  background-color: ${color.blue};
+  &:hover{
+    color: ${color.blue};
+    outline: 1px solid ${color.blue};
+    background: ${color.white};
+  }
+`;
+
+export const HeaderContent = styled.div`
+  padding: 50px 120px;
+  font-size: 46px;
+  font-weight: bolder;
+  color: ${color.blue};
 `;

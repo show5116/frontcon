@@ -40,4 +40,9 @@ export const Link = styled.a`
   background: ${color.blue};
   color: ${color.white};
   font-size: 26px;
+  &:hover{
+    color: ${color.blue};
+    outline: 1px solid ${color.blue};
+    background: ${color.white};
+  }
 `;

@@ -1,6 +1,7 @@
 import * as S from './Header.style';
 import Link from "next/link";
 import {useSelector} from "react-redux";
+import {HeaderContent} from "./Header.style";
 
 const Header = () => {
 
@@ -19,36 +20,32 @@ const Header = () => {
                         <li><Link
                             href='/guide'
                         >
-                            Guide
+                            <S.Menu>Guide</S.Menu>
                         </Link></li>
                         <li><Link
                             href='/icon'
                         >
-                            Icon
+                            <S.Menu>Icon</S.Menu>
                         </Link></li>
                         <li><Link
                             href='/login'
                         >
-                            <a className='login-btn'>Login</a>
+                            <S.LoginBtn>Login</S.LoginBtn>
                         </Link></li>
                     </ul>
                 </nav>
             </div>
             {headState.headState === "main" && (
-                <div
-                    className='main-page-content'
-                >
+                <S.HeaderContent>
                     세상의 모든 UI<br/>
                     Front CON에서 시작하세요.
-                </div>
+                </S.HeaderContent>
             )}
             {headState.headState === "guide" && (
-                <div
-                    className='guide-page-content'
-                >
+                <S.HeaderContent>
                     Copy & Paste
                     두가지로 모든 기능을 경험할 수 있습니다.
-                </div>
+                </S.HeaderContent>
             )}
         </S.Container>
     );

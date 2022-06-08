@@ -23,6 +23,7 @@ export const CtrlCV = styled.div`
 
 export const Explanation = styled.div`
   color: ${color.gray};
+  line-height: 1.4rem;
   font-size: 20px;
   font-weight: bold;
 `;
