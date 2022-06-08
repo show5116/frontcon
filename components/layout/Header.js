@@ -17,17 +17,17 @@ const Header = () => {
                 <nav>
                     <ul>
                         <li><Link
-                            href='/'
+                            href='/guide'
                         >
                             Guide
                         </Link></li>
                         <li><Link
-                            href='/'
+                            href='/icon'
                         >
                             Icon
                         </Link></li>
                         <li><Link
-                            href='/'
+                            href='/login'
                         >
                             <a className='login-btn'>Login</a>
                         </Link></li>
