@@ -44,12 +44,12 @@ const Home = () => {
         />
         <Section
             title="Text"
-            content="input을 해치지 않는 깔끔한 label 디자인\n로딩 화면, 토글버튼 등 다양한 ICON 디자인을 경험하세요"
+            content="최신 트랜드 폰트와 다양한 폰트를\n비교하며 경험해보세요."
             link="/text"
         />
         <Section
             title="WireFrame"
-            content="input을 해치지 않는 깔끔한 label 디자인\n로딩 화면, 토글버튼 등 다양한 ICON 디자인을 경험하세요"
+            content="여러가지 와이어프레임을 보고 비교해가며\n여러분의 홈페이지에 최적화된 와이어프레임을 찾아보세요."
             link="/wireframe"
         />
       </main>
