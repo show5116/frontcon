@@ -14,6 +14,10 @@ const headerReducer = (state = initialState ,action) => {
             return {
                 headState: "guide",
             };
+        case A.SET_HEADER_LOGIN :
+            return {
+                headState: "login",
+            };
         case A.SET_HEADER_DEFAULT :
             return {
                 headState: "default",

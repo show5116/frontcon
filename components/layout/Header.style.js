@@ -5,7 +5,8 @@ export const Container = styled.header`
   height:
           ${({headState})=> headState === "default" && "88px"}
           ${({headState})=> headState === "main" && "540px"}
-          ${({headState})=> headState === "guide" && "360x"};
+          ${({headState})=> headState === "guide" && "360px"}
+          ${({headState})=> headState === "login" && "360px"};
   width: 100%;
   background: linear-gradient(${color.lightGray},${color.whiteSmoke});
 

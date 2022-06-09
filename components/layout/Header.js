@@ -1,7 +1,6 @@
 import * as S from './Header.style';
 import Link from "next/link";
 import {useSelector} from "react-redux";
-import {HeaderContent} from "./Header.style";
 
 const Header = () => {
 

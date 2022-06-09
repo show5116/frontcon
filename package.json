@@ -10,8 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^6.2.1",
     "axios": "^0.27.2",
     "babel-preset-next": "^1.4.0",
+    "chalk": "^5.0.1",
     "next": "12.1.6",
     "next-redux-wrapper": "^7.0.5",
     "pretendard": "^1.2.2",
