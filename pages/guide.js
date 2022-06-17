@@ -19,7 +19,7 @@ label{
 }
 `;
 
-const guide = () => {
+const Guide = () => {
 
     const dispatch = useDispatch();
 
@@ -39,4 +39,4 @@ const guide = () => {
     );
 };
 
-export default guide;
+export default Guide;

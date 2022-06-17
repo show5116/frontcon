@@ -6,7 +6,7 @@ import Github from "../assets/svg/github.svg";
 import color from "../styles/color";
 import secretKey from '../secretKey.json';
 
-const login = () => {
+const Login = () => {
 
     const dispatch = useDispatch();
 
@@ -43,4 +43,4 @@ const login = () => {
     );
 }
 
-export default login;
+export default Login;

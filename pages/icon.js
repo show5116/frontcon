@@ -3,7 +3,7 @@ import {useDispatch} from "react-redux";
 import {useEffect} from "react";
 import {setHeaderDefault} from "../store/action/headerAction";
 
-const icon = () => {
+const Icon = () => {
 
     const dispatch = useDispatch();
 
@@ -18,4 +18,4 @@ const icon = () => {
     );
 };
 
-export default icon;
+export default Icon;
